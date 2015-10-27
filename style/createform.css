@@ -1,0 +1,14 @@
+/* CSS Document */
+
+[name="frm_create"]
+{
+	position: relative;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+}
+
+[name="frmname"]
+{
+	width: 300px;
+}

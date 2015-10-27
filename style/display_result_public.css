@@ -1,0 +1,19 @@
+/* CSS Document */
+
+[name="frm_result"]
+{
+	position: relative;
+	width: 840px;
+	left: 50%;
+	margin-left: -420px;
+}
+
+.tb
+{
+	width: 95%;
+}
+
+.td
+{
+	padding: 5px;
+}

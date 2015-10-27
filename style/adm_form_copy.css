@@ -1,0 +1,14 @@
+/* CSS Document */
+
+[name="frm_copy"]
+{
+	position: relative;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+}
+
+[name="fname"]
+{
+	width: 300px;
+}

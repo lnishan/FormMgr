@@ -1,0 +1,29 @@
+/* CSS Document */
+
+.sub
+{
+	position: absolute;
+	right: 10px;
+}
+
+[name="frm_form"]
+{
+	position: relative;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+}
+
+.req
+{
+	display: inline;
+	color: red;
+	font-weight: bold;
+}
+
+.vld
+{
+	display: inline;
+	color: #FF722B;
+	font-weight: bold;
+}

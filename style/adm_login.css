@@ -1,0 +1,53 @@
+/* CSS Document */
+
+*
+{
+	font-size: 16px;
+}
+
+[name="frm_login"]
+{
+	position: relative;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+}
+
+.center
+{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+input
+{
+	font-size: 16px;
+}
+
+.button_login
+{
+	display: inline-block;
+	position: relative;
+	margin-left: -50px;
+	left: 50%;
+	width: 100px;
+	height: 30px;
+	background-image: linear-gradient(180deg, #67A1F0 0%, #3882E8 50%, #1069E3 100%);
+	color: white;
+	border: 0;
+	padding: 0;
+}
+
+.button_login:hover
+{
+	background-image: linear-gradient(180deg, #1069E3 0%, #3882E8 50%, #67A1F0 100%);
+	color: #D6E7FF;
+}
+
+.button_login:active
+{
+	background-image: none;
+	background-color: #3882E8;
+}

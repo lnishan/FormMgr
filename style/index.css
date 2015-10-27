@@ -1,0 +1,12 @@
+/* CSS Document */
+
+#ifrm_content
+{
+	position: relative;
+	width: 900px;
+	top: 60px;
+	left: 50%;
+	margin-left: -450px;
+	padding: 0;
+	border: 0;
+}

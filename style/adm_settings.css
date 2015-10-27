@@ -1,0 +1,41 @@
+/* CSS Document */
+
+[name="frm_settings"]
+{
+	position: relative;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+}
+
+.title
+{
+	width: 400px;
+}
+
+.desc
+{
+	width: 500px;
+	height: 100px;
+}
+
+.width95
+{
+	width: 95%;
+}
+
+.tb
+{
+	width: 98%;
+}
+
+.td
+{
+	border-bottom: solid 1px #AAA;
+}
+
+.sub_center
+{
+	width: 100%;
+	text-align: center;
+}

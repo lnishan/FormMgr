@@ -1,0 +1,47 @@
+/* CSS Document */
+
+[name="rid"]
+{
+	display: inline;
+}
+
+.list_box_first
+{
+	margin: 0px;
+	background-image: url('../images/listbox.png');
+	background-origin: padding-box;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+.list_box
+{
+	margin: 0px;
+}
+
+[name="frm_add"]
+{
+	position: relative;
+	top: 0px;
+	width: 840px;
+	left: 50%;
+	margin-left: -420px;
+	z-index: 100;
+	height: 180px;
+}
+
+[name="frm_final"]
+{
+	position: relative;
+	width: 840px;
+	left: 50%;
+	margin-left: -420px;
+	z-index: 1;
+	overflow: auto;
+}
+
+.sub
+{
+	position: absolute;
+	right: 10px;
+}

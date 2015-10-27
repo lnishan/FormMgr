@@ -1,0 +1,16 @@
+/* CSS Document */
+
+[name="frm_newacc"]
+{
+	position: relative;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+}
+
+#wrapper_newacc
+{
+	display: block;
+	position: relative;
+	margin: 5px;
+}
