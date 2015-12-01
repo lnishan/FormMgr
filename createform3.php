@@ -30,8 +30,7 @@
 		$fid=$row['Auto_increment'];
 	}
 	
-	$datetime=new DateTime;
-	$datetime->setTimezone(new DateTimeZone('Asia/Taipei'));
+	$datetime=new DateTime(null, new DateTimeZone('Asia/Taipei'));
 	$sql="insert into `forminfo` (" . (isset($_POST['existedfrm'])?"`fid`, ":"") . "`ctime`, `creator`, `fname`, `fdesc`, `upbl`, `rpbl`) values ('" . (isset($_POST['existedfrm'])?$fid."', '":"") . $datetime->format("Y-m-d H:i:s") . "', '" . $member['username'] . "', '" . escape($link, $_POST['frmname']) . "', '" . escape($link, $_POST['frmdesc']) . "', '" . $_POST['frmupbl'] . "', '" . $_POST['frmrpbl'] . "');";
 	if( !query($link, $sql) ) $isOK=0;
 	
