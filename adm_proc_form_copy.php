@@ -14,8 +14,7 @@
 		$fid=$row['Auto_increment'];
 		
 		// copy forminfo, create new creator+datetime
-		$dtime=new DateTime;
-		$dtime->setTimezone(new DateTimeZone('Asia/Taipei'));
+		$dtime=new DateTime(null, new DateTimeZone('Asia/Taipei'));
 		$sql="insert into `forminfo` (`ctime`, `creator`, `fname`, `fdesc`, `upbl`, `rpbl`) values ('" . $dtime->format("Y-m-d H:i:s") . "', '" . $member['username'] . "', '" . escape($link, $_POST['fname']) . "', '" . escape($link, $_POST['fdesc']) . "', '" . ( isset($_POST['fupbl'])?"1":"0" ) . "', '" . ( isset($_POST['frpbl'])?"1":"0" ) . "');";
 		if( !query($link, $sql) ) $isOK=0;
 			

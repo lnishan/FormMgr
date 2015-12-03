@@ -62,8 +62,7 @@
 			$col=substr($col, 0, strlen($col)-2);
 			$val=substr($val, 0, strlen($val)-2);
 			
-			$datetime=new DateTime;
-			$datetime->setTimezone(new DateTimeZone('Asia/Taipei'));
+			$datetime=new DateTime(null, new DateTimeZone('Asia/Taipei'));
 			
 			$sql="insert into `result" . $fid . "` (`rtime`, `rIP`, " . $col . ") values ('" . $datetime->format("Y-m-d H:i:s") . "', '" . getIP() . "', " . $val . ");";
 			// echo $sql . "<br>";
